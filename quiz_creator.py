@@ -127,3 +127,6 @@ def view_quiz(filename = 'quiz_questions_and_answers'):
         print("Quiz file not found")
 
 def delete_questions(filename = 'quiz_questions_and_answers'):
+    try:
+        with open(filename, 'r', encoding = 'utf-8') as file:
+            questions = file.read().split("-"* 40 + "\n")

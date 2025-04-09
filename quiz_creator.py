@@ -121,3 +121,5 @@ def view_quiz(filename = 'quiz_questions_and_answers'):
             if content.strip():
                 print("\n=== SAVED QUIZ QUESTIONS ===")
                 print(content)
+            else:
+                print("No questions here -_-")

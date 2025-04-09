@@ -51,7 +51,8 @@ def main_menu():
         else:
             print("Invalid input! Please try again ^_^")
 
-def write_a_file(data):
-    filename = 'quiz_questions_and_answers'
-    with open(filename, 'a',encoding = 'utf-8'):
-        file.write("a). + data[a] +\n")
+def write_a_file(data, filename = 'quiz_questions_and_answers'):
+    with open(filename, 'a',encoding = 'utf-8') as file:
+        file.write("Q: + data['question']\n")
+        file.write("Difficulty: +data[difficulty] + \n")
+        file.write("a). + data[a] + \n")

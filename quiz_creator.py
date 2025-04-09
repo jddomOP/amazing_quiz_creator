@@ -64,9 +64,13 @@ def write_a_file(data, filename = 'quiz_questions_and_answers'):
 
 def create_quiz():
     difficulty = input("Enter the difficulty (Elementary, High School, General): ").capitalize()
-    if question.lower == 'exit':
-        print("Returning to Main Menu...\n")
-        break
+
+#Forgot to add a question variable
+    while True:
+        question = input("Enter your desired question (or type exit to go back to main menu)")
+        if question.lower == 'exit':
+            print("Returning to Main Menu...\n")
+            break
 
     a = input("Choice a: ")
     b = input("Choice b: ")

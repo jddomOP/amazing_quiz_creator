@@ -79,5 +79,8 @@ def create_quiz():
         if correct not in ['a', 'b', 'c', 'd']:
             print("Invalid input! Please choose in a, b, c, d, ^_^")
 
+    question_data =  {
+    }
+
 
 

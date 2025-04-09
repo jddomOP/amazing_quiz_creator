@@ -4,26 +4,41 @@
 # 1. Display the title using pyfiglet library
 # 2. Display the Main menu
 #   - pick option between:
-#       "1. Create a quiz"
-#       "2. Exit"
+#      1. Create a Quiz
+#      2. View Quiz
+#      3. Delete a Question
+#      4. Exit
 # 3. If the user selects "Create a quiz"
 #   - Prompt the user to enter what difficulty (Elementary(as easy), High School(as medium), General(as hard))
 #   - After selection, it will be in a loop for the user to input questions, choices and answers
-# 4. In question loop:
+# 4. If the user selects "View Quiz":
+#    - Read the saved quiz file
+#    - Display all questions and answers in the stored format
+#    - If no questions exist or file doesn't exist, show a message
+# 5. If the user selects "Delete a Question":
+#    - Load all saved questions from the file and split them using the separator line
+#    - Display a numbered list of all questions
+#    - Show only the question text for easier selection
+#    - Ask the user to input the number of the question to delete
+#    - If they type "cancel", return to the main menu
+#    - If the number is valid, remove that question
+#    - Rewrite the file without the deleted question
+#    - Show confirmation that the question was deleted
+# 6. In question loop:
 #   - Ask the user to input questions
 #   - If the user enter "exit" then will be redirected to main menu
 #   - Otherwise, the user will be asked to input answers in the choices between a, b, c, d
 #   - Prompt the user to enter the correct answer (must be in a, b, c, d)
 #   - If the correct answer input is invalid, re-prompt until valid answer is given
 #   - Stores the question, choices, correct answer, and difficulties in a dictionary
-# 5. Write the question data to a text file in a structured format:
+# 7. Write the question data to a text file in a structured format:
 #   - Write the question text
 #   - Write the difficulty
 #   - Write the options/choices each a, b, c, d
 #   - Write the correct answer
 #   - Write a separator line to divide questions in text file
-# 6. After saving the question, notify the user and repeat the loop to add more questions
-# 7. If the user selects 'Exit' in the main menu
+# 8. After saving the question, notify the user and repeat the loop to add more questions
+# 9. If the user selects 'Exit' in the main menu
 #   - Display goodbye message
 #END
 
@@ -68,7 +83,7 @@ def create_quiz():
 
     while True:
         question = input("Enter your desired question (or type 'exit' to go back to main menu): ")
-        if question.lower == "exit":
+        if question.lower() == "exit":
             print("Returning to Main Menu...\n")
             break
 

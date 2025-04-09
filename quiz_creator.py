@@ -89,6 +89,7 @@ def create_quiz():
         "correct": correct
     }
 
+#Calls the function which is expected to write the quiz into a file
     write_a_file(question_data)
 
 

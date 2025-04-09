@@ -64,7 +64,11 @@ def main_menu():
         if choice == '1':
             create_quiz()
         if choice == '2':
-            
+            view_quiz()
+        if choice == '3':
+            delete_questions()
+        if choice == '4':
+            print("Thanks for using!!")
             break
         else:
             print("Invalid input! Please try again ^_^")

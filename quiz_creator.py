@@ -144,3 +144,7 @@ def delete_questions(filename = 'quiz_questions_and_answers'):
         if index.lower() == 'cancel':
             print("Deleting cancelled")
             return
+
+        index = int(index)
+        if 1 <= index <= len(questions):
+            del questions[index - 1]

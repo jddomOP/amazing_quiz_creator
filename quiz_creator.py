@@ -55,7 +55,9 @@ def main_menu():
         the_title()
         print("Main Menu")
         print("1. Create a Quiz")
-        print("2. Exit")
+        print("2. View questions")
+        print("3. Delete qeustion")
+        print("4. Exit")
         choice = input("Choose an option! (1 or 2): ")
 
         if choice == '1':

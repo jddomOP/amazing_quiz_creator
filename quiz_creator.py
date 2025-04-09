@@ -80,6 +80,8 @@ def create_quiz():
             print("Invalid input! Please choose in a, b, c, d, ^_^")
 
     question_data =  {
+        "question": question,
+        
     }
 
 

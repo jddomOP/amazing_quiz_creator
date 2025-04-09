@@ -114,5 +114,4 @@ def create_quiz():
     write_a_file(question_data)
     print("Question is saved!!")
 
-if __name__ == "__main__":
-    main_menu()
+def view_quiz

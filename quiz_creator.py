@@ -67,7 +67,7 @@ def create_quiz():
     print(f"Creating {difficulty} quiz. Type 'exit' as question to be redirected at main menu: ")
 
     while True:
-        question = input("Enter your desired question (or type exit to go back to main menu)")
+        question = input("Enter your desired question (or type 'exit' to go back to main menu): ")
         if question.lower == 'exit':
             print("Returning to Main Menu...\n")
         break

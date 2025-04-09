@@ -99,11 +99,11 @@ def create_quiz():
         c = input("Choice c: ")
         d = input("Choice d: ")
 
-    correct = ""
-    while correct.lower() not in ['a', 'b', 'c', 'd']:
-        correct = input("Enter the correct answer between a/b/c/d: ").lower()
-        if correct not in ['a', 'b', 'c', 'd']:
-            print("Invalid input! Please choose in a, b, c, d, ^_^")
+        correct = ""
+        while correct.lower() not in ['a', 'b', 'c', 'd']:
+            correct = input("Enter the correct answer between a/b/c/d: ").lower()
+            if correct not in ['a', 'b', 'c', 'd']:
+                print("Invalid input! Please choose in a, b, c, d, ^_^")
 
     question_data =  {
         "question": question,

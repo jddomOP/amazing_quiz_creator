@@ -141,6 +141,6 @@ def delete_questions(filename = 'quiz_questions_and_answers'):
             print(f"{i}, {q.splitlines()[0]}")
 
         index = input("Enter the number of the question you want to delete: ")
-        if index == 'exit'
+        if index == 'exit':
             print("Deleting cancelled")
             return

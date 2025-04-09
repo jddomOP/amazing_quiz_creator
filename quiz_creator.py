@@ -86,7 +86,7 @@ def create_quiz():
         "b": b,
         "c": c,
         "d": d,
-        
+        "correct": correct
     }
 
 

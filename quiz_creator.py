@@ -82,6 +82,10 @@ def create_quiz():
     question_data =  {
         "question": question,
         "difficulty": difficulty,
+        "a": a,
+        "b": b,
+        "c": c,
+        "d": d,
         
     }
 

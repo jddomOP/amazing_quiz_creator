@@ -157,3 +157,7 @@ def delete_questions(filename = 'quiz_questions_and_answers'):
             print("Invalid question number.")
     except Exception as e:
         print("Error: ", e)
+
+#Run the code
+if __name__ == "__main__":
+    main_menu()

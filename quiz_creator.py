@@ -61,3 +61,18 @@ def write_a_file(data, filename = 'quiz_questions_and_answers'):
         file.write("d). + data['d'] + \n")
         file.write("Answer: + data['correct'] + \n")
         file.write("-" * 40 +"\n")
+
+def create_quiz():
+    difficulty = input("Enter the difficulty (Elementary, High School, General): ").capitalize()
+    if question.lower == 'exit':
+        print("Returning to Main Menu...\n")
+        break
+
+    a = input("Choice a: ")
+    b = input("Choice b: ")
+    c = input("Choice c: ")
+    d = input("Choice d: ")
+
+    correct = ""
+
+

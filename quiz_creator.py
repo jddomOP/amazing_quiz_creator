@@ -152,3 +152,7 @@ def delete_questions(filename = 'quiz_questions_and_answers'):
                 for q in questions:
                     file.write(q.strips() + "\n" + "-" * 40 + "\n")
                 print("Question is now deleted!\n")
+        else:
+            print("Invalid question number.")
+    except Exception as e:
+        print("Error: ", e)

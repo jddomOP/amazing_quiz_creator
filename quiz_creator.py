@@ -130,3 +130,8 @@ def delete_questions(filename = 'quiz_questions_and_answers'):
     try:
         with open(filename, 'r', encoding = 'utf-8') as file:
             questions = file.read().split("-"* 40 + "\n")
+
+        questions = [q.strip() for q in questions if q.strip()]
+        if not questions:
+            print("No questions to delete here.")
+            return

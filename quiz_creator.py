@@ -116,8 +116,8 @@ def create_quiz():
         }
 
 #Calls the function which is expected to write the quiz into a file
-    write_a_file(question_data)
-    print("Question is saved!!")
+        write_a_file(question_data)
+        print("Question is saved!!")
 
 def view_quiz(filename = 'quiz_questions_and_answers'):
     try:

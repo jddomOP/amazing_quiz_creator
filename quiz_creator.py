@@ -70,7 +70,7 @@ def create_quiz():
         question = input("Enter your desired question (or type exit to go back to main menu)")
         if question.lower == 'exit':
             print("Returning to Main Menu...\n")
-            break
+        break
 
     a = input("Choice a: ")
     b = input("Choice b: ")

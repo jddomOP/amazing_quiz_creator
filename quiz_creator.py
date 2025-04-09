@@ -115,3 +115,6 @@ def create_quiz():
     print("Question is saved!!")
 
 def view_quiz(filename = 'quiz_questions_and_answers'):
+    try:
+        with open(filename, 'r', encoding = 'utf-8') as file:
+            content = file.read()

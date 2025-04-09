@@ -93,4 +93,8 @@ def create_quiz():
     write_a_file(question_data)
     print("Question is saved!!")
 
+if__name__ == "__main__":
+    main_menu()
+
+
 

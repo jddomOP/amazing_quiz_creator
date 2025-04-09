@@ -99,6 +99,3 @@ def create_quiz():
 
 if __name__ == "__main__":
     main_menu()
-
-
-

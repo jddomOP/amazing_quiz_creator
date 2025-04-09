@@ -89,5 +89,7 @@ def create_quiz():
         "correct": correct
     }
 
+    write_a_file(question_data)
+
 
 

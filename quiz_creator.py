@@ -118,3 +118,6 @@ def view_quiz(filename = 'quiz_questions_and_answers'):
     try:
         with open(filename, 'r', encoding = 'utf-8') as file:
             content = file.read()
+            if content.strip():
+                print("\n=== SAVED QUIZ QUESTIONS ===")
+                print(content)

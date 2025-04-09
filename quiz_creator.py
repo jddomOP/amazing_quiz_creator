@@ -59,7 +59,7 @@ def main_menu():
         print("2. View questions")
         print("3. Delete question")
         print("4. Exit")
-        choice = input("Choose an option! (1 or 2): ")
+        choice = input("Choose an option! (1, 2, 3, 4): ")
 
         if choice == '1':
             create_quiz()

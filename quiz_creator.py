@@ -34,3 +34,17 @@ def the_title():
     print (title)
 
 def main_menu():
+    while True:
+        the_title()
+        print("Main Menu")
+        print("1. Create a Quiz")
+        print("2. Exit")
+        choice = input("Choose an option! (1 or 2): ")
+
+        if choice == '1':
+            create_quiz()
+        if choice == '2'
+            print("Thank you for using, Goodbye!")
+            break
+        else:
+            print("Invalid input! Please try again ^_^")

@@ -125,3 +125,5 @@ def view_quiz(filename = 'quiz_questions_and_answers'):
                 print("No questions here -_-")
     except FileNotFoundError:
         print("Quiz file not found")
+
+def delete_questions(filename = 'quiz_questions_and_answers'):

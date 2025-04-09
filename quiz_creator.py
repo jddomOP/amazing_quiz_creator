@@ -105,15 +105,15 @@ def create_quiz():
             if correct not in ['a', 'b', 'c', 'd']:
                 print("Invalid input! Please choose in a, b, c, d, ^_^")
 
-    question_data =  {
-        "question": question,
-        "difficulty": difficulty,
-        "a": a,
-        "b": b,
-        "c": c,
-        "d": d,
-        "correct": correct
-    }
+        question_data =  {
+            "question": question,
+            "difficulty": difficulty,
+            "a": a,
+            "b": b,
+            "c": c,
+            "d": d,
+            "correct": correct
+        }
 
 #Calls the function which is expected to write the quiz into a file
     write_a_file(question_data)

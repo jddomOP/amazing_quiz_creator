@@ -24,15 +24,17 @@
 #   - Write a separator line to divide questions in text file
 # 6. After saving the question, notify the user and repeat the loop to add more questions
 # 7. If the user selects 'Exit' in the main menu
-#   - Display goobye message
+#   - Display goodbye message
 #END
 
 import pyfiglet
 
+#make a function for the title
 def the_title():
     title = pyfiglet.figlet_format("Welcome to the Quiz Maker!", font = 'slant')
     print (title)
 
+#Make main menu of the code
 def main_menu():
     while True:
         the_title()
@@ -48,3 +50,6 @@ def main_menu():
             break
         else:
             print("Invalid input! Please try again ^_^")
+
+def write_a_file():
+    filename = ''

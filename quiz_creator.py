@@ -94,10 +94,10 @@ def create_quiz():
             print("Returning to Main Menu...\n")
             break
 
-    a = input("Choice a: ")
-    b = input("Choice b: ")
-    c = input("Choice c: ")
-    d = input("Choice d: ")
+        a = input("Choice a: ")
+        b = input("Choice b: ")
+        c = input("Choice c: ")
+        d = input("Choice d: ")
 
     correct = ""
     while correct.lower() not in ['a', 'b', 'c', 'd']:

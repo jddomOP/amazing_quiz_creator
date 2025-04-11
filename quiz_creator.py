@@ -48,7 +48,7 @@ import pyfiglet
 #make a function for the title
 def the_title():
     title = pyfiglet.figlet_format("Welcome to the Quiz Maker!", font = 'slant')
-    print (title)
+    print(title)
 
 #Make main menu of the code
 def main_menu():

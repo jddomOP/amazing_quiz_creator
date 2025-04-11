@@ -63,7 +63,7 @@ def main_menu():
 
         if choice == '1':
             create_quiz()
-        if choice == '2':
+        elif choice == '2':
             view_quiz()
         if choice == '3':
             delete_questions()

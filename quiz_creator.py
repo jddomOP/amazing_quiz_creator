@@ -67,7 +67,7 @@ def main_menu():
             view_quiz()
         elif choice == '3':
             delete_questions()
-        if choice == '4':
+        elif choice == '4':
             print("Thanks for using!!")
             break
         else:

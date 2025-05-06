@@ -43,5 +43,5 @@ def load_questions_by_difficulty:
             continue
 
         question_data = {
-            
+            "question": lines[0][3:]
         }

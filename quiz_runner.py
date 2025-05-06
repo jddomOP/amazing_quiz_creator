@@ -86,4 +86,4 @@ def ask_question(questions):
     print(Fore.MAGENTA + f"\n Quiz Finished!! Your Score: {score}/{len(question)}")
 
 def choose_difficulty():
-    
+    difficulty_map = {'1': 'Elementary', '2': 'High School', '3': 'General'}

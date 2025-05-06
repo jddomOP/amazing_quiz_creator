@@ -43,5 +43,6 @@ def load_questions_by_difficulty:
             continue
 
         question_data = {
-            "question": lines[0][3:]
+            "question": lines[0][3:],
+            "difficulty": lines [1][11:].strip().lower(),
         }

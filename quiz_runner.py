@@ -34,5 +34,5 @@ def load_questions_by_difficulty:
     with open(filename, 'r', encoding='utf-8') as file:
         content = file.read().strip()
 
-    qustion_blocks = content.split("-" * 40 + "\n")
+    question_blocks = content.split("-" * 40 + "\n")
     questions = []

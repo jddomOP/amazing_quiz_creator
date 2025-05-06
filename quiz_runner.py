@@ -112,3 +112,6 @@ def main():
     difficulty, question = choose_difficulty()
     ask_question(questions)
 
+if __name__ == "__main__":
+    main()
+

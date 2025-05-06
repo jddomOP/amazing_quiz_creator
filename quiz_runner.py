@@ -68,3 +68,7 @@ def ask_question(questions):
         print(f"c.) {q['a']}")
         print(f"d.) {q['a']}")
         print(Fore.BLUE + f"⏳ You have {time_limit} seconds to answer!!")
+
+        try:
+            answer = inputimeout(prompt=Fore.CYAN + "Your answer (a/b/c/d): ", timeout= time_limit).lower()
+        except TimeoutOccurred:

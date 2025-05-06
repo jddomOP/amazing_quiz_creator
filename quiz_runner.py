@@ -30,3 +30,6 @@ def load_questions_by_difficulty:
     if not os.path.exists(filename):
         print(Fore.red = "QUIZ FILE NOT FOUND...")
         return []
+
+    with open(filename, 'r', encoding='utf-8') as file:
+        content = file.read().strip()

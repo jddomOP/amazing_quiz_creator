@@ -84,4 +84,6 @@ def ask_question(questions):
             print(Fore.RED + f"❌ No answer?!?!, The correct answer was '{q['correct']} {q[q['correct']]}")
 
     print(Fore.MAGENTA + f"\n Quiz Finished!! Your Score: {score}/{len(question)}")
+
+def choose_difficulty():
     

@@ -109,4 +109,6 @@ def choose_difficulty():
 
 def main():
     print(Fore.LIGHTCYAN_EX + pyfiglet.figlet_format("Welcome to my Quiz!!", font="slant"))
-    
+    difficulty, question = choose_difficulty()
+    ask_question(questions)
+

@@ -83,7 +83,7 @@ def ask_question(questions):
         else:
             print(Fore.RED + f"❌ No answer?!?!, The correct answer was '{q['correct']} {q[q['correct']]}")
 
-    print(Fore.MAGENTA + f"\n Quiz Finished!! Your Score: {score}/{len(question)}")
+    print(Fore.MAGENTA + f"\n Quiz Finished!! Your Score: {score}/{len(questions)}")
 
 def choose_difficulty():
     difficulty_map = {'1': 'Elementary', '2': 'High School', '3': 'General'}

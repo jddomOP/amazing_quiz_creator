@@ -101,3 +101,9 @@ def choose_difficulty():
 
         difficulty = difficulty_map [choice]
         questions = load_questions_by_difficulty(difficulty)
+
+        if questions:
+            return difficulty, questions
+        else:
+            print(Fore.RED + f"No questions found for '{difficulty}'. Please pick another difficulty. \n")
+            

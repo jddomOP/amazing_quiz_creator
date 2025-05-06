@@ -54,3 +54,5 @@ def load_questions_by_difficulty:
 
         if question_data['difficulty'] == difficulty.lower():
             question.append(question_data)
+
+    return questions

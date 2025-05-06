@@ -62,3 +62,4 @@ def ask_question(questions):
     random.shuffle(questions)
 
     for i, q in enumerate(questions, 1):
+        print(Fore.YELLOW + F"\n Question {i}: {q['question']}")

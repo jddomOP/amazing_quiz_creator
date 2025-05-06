@@ -28,7 +28,7 @@ time_limit = 15
 
 def load_questions_by_difficulty(difficulty):
     if not os.path.exists(filename):
-        print(Fore.red = "QUIZ FILE NOT FOUND...")
+        print(Fore.RED + "QUIZ FILE NOT FOUND...")
         return []
 
     with open(filename, 'r', encoding='utf-8') as file:

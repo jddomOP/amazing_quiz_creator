@@ -63,3 +63,7 @@ def ask_question(questions):
 
     for i, q in enumerate(questions, 1):
         print(Fore.YELLOW + F"\n Question {i}: {q['question']}")
+        print(f"a.) {q['a']}")
+        print(f"b.) {q['a']}")
+        print(f"c.) {q['a']}")
+        print(f"d.) {q['a']}")

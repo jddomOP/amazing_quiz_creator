@@ -14,3 +14,9 @@
 # 13. If the answer is incorrect or missing, it displays the correct answer.
 # 14. After all questions have been asked, the program shows the final score out of the total number of questions.
 # 15. The program then ends.
+
+import random
+import os
+import pyfiglet
+from inputimeout import inputimeout, TimeoutOccurred
+from colorama import init,Fore, Style

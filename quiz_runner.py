@@ -100,3 +100,4 @@ def choose_difficulty():
             continue
 
         difficulty = difficulty_map [choice]
+        questions = load_questions_by_difficulty(difficulty)

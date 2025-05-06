@@ -73,3 +73,4 @@ def ask_question(questions):
             answer = inputimeout(prompt=Fore.CYAN + "Your answer (a/b/c/d): ", timeout= time_limit).lower()
         except TimeoutOccurred:
             answer = None
+            print(Fore.RED + "⌛ Time is up!" )

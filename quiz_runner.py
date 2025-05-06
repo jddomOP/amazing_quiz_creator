@@ -67,3 +67,4 @@ def ask_question(questions):
         print(f"b.) {q['a']}")
         print(f"c.) {q['a']}")
         print(f"d.) {q['a']}")
+        print(Fore.BLUE + f"⏳ You have {time_limit} seconds to answer!!")

@@ -75,4 +75,5 @@ def ask_question(questions):
             answer = None
             print(Fore.RED + "⌛ Time is up!" )
 
-            
+        if answer in ['a', 'b', 'c', 'd'] and answer == q['correct']:
+            print(Fore.GREEN + "Correct!!")

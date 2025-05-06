@@ -106,4 +106,5 @@ def choose_difficulty():
             return difficulty, questions
         else:
             print(Fore.RED + f"No questions found for '{difficulty}'. Please pick another difficulty. \n")
-            
+
+def main():

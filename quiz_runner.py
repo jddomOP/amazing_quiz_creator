@@ -78,3 +78,6 @@ def ask_question(questions):
         if answer in ['a', 'b', 'c', 'd'] and answer == q['correct']:
             print(Fore.GREEN + "Correct!!")
             score += 1
+        elif answer:
+            print(Fore.RED + f"❌ Wrong! The correct answer was '{q['correct']} {q[q['correct']]}")
+            

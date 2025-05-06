@@ -108,3 +108,5 @@ def choose_difficulty():
             print(Fore.RED + f"No questions found for '{difficulty}'. Please pick another difficulty. \n")
 
 def main():
+    print(Fore.LIGHTCYAN_EX + pyfiglet.figlet_format("Welcome to my Quiz!!", font="slant"))
+    

@@ -80,4 +80,5 @@ def ask_question(questions):
             score += 1
         elif answer:
             print(Fore.RED + f"❌ Wrong! The correct answer was '{q['correct']} {q[q['correct']]}")
-            
+        else:
+            print(Fore.RED + f"❌ No answer?!?!, The correct answer was '{q['correct']} {q[q['correct']]}")

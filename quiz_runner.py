@@ -26,7 +26,7 @@ init(autoreset=True)
 filename = 'quiz_questions_and_answers'
 time_limit = 15
 
-def load_questions_by_difficulty:
+def load_questions_by_difficulty(difficulty):
     if not os.path.exists(filename):
         print(Fore.red = "QUIZ FILE NOT FOUND...")
         return []

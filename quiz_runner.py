@@ -97,3 +97,4 @@ def choose_difficulty():
 
         if choice not in difficulty_map:
             print(Fore.RED + "❌ Invalid choice. Please choose between 1, 2, 3")
+            continue

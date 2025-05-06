@@ -49,4 +49,5 @@ def load_questions_by_difficulty:
             "b": lines[3][4:],
             "c": lines[4][4:],
             "d": lines[5][4:],
+            "correct": lines[6][8:].lower()
         }

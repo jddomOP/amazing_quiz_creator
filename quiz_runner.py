@@ -60,3 +60,5 @@ def load_questions_by_difficulty:
 def ask_question(questions):
     score = 0
     random.shuffle(questions)
+
+    for i, q in enumerate(questions, 1):

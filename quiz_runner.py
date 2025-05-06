@@ -20,3 +20,5 @@ import os
 import pyfiglet
 from inputimeout import inputimeout, TimeoutOccurred
 from colorama import init,Fore, Style
+
+init(autoreset=True)

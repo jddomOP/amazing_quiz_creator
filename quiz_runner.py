@@ -57,4 +57,5 @@ def load_questions_by_difficulty:
 
     return questions
 
-def
+def ask_question(questions):
+    score = 0

@@ -22,3 +22,5 @@ from inputimeout import inputimeout, TimeoutOccurred
 from colorama import init,Fore, Style
 
 init(autoreset=True)
+
+filename = 'quiz_questions_and_answers'

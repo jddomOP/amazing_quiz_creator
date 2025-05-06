@@ -41,3 +41,7 @@ def load_questions_by_difficulty:
         lines = block.strip.split('\n')
         if len(lines) < 7:
             continue
+
+        question_data = {
+            
+        }
